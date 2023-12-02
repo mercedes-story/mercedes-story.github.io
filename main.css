@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'Corporate A Light';
+    src: url('./fonts/Corporate-A-Font/Corporate\ A\ Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Corporate A Bold';
+    src: url('./fonts/Corporate-A-Font/Corporate\ A\ Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    font-size: 17px;
+}
+
+.navbar a {
+    color: #C6C6C6;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: red;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.navbar .logoImg {
+    border-radius: 50px;
+}
+
+.navbar .logo:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-links .pages {
+    display: block;
+}
+
+.navbar .nav-links #menuBtn {
+    display: none;
+}
+
+html {
+    font-family: 'arial';
+    font-size: 16px;
+    background-color: rgb(58, 58, 58);
+    color: #C6C6C6;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#hero {
+    background: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+
+#band {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#content {
+    text-align: center;
+    padding: 10%;
+}
+
+#content a {
+    color: #111111;
+    background-color: #1e91be;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#content a:hover {
+    color: #C6C6C6;
+    border: 1px solid #1e91be;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+h1, h2 {
+    color:#C6C6C6;
+    font-size: 50px;
+    font-family: "Corporate A Bold";
+}
+
+h3 {
+    color:#C6C6C6;
+    font-size: 30px;
+    font-family: "Corporate A Light";
+}
+
+.navbar > a {
+    color: #C6C6C6;
+    padding: 15px;
+}
+
+.navbar > a:hover {
+    color: #111111;
+}
+
+.mainLogo {
+    border-radius: 25px;
+}
+
+.driversTitle {
+    padding: 40px;
+    text-align: center;
+    background-color: #111111;
+    font-size: 40px;
+}
+
+.hamilton {
+    background-color: #00A19C;
+    padding-left: 20px;
+}
+
+.russel {
+    background-color: #80142B;
+    padding-right: 20px;
+}
+
+.hamilton, .russel {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Corporate A Light";
+}
+
+.hamiltonImg, .russelImg {
+    height: 500px;
+}
+
+.driverInfo {
+    padding: 20px;
+}
+
+.moreInfoBtn {
+    color: #C6C6C6;
+    border-color: #111111;
+    background-color: #111111;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 5px;
+}
+
+.moreInfoBtn:hover {
+    color: #111111;
+    border-color: #111111;
+    background-color: rgba(0, 0, 0, 0);
+}
